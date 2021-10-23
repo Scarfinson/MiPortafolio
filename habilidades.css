@@ -1,0 +1,17 @@
+.jHabilidades {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.jHabilidadesSkills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.Java {width: 90%; background-color: #FFB408;}
+.C {width: 80%; background-color: #07EA07;}
+.HTML {width: 65%; background-color: #EA1407;}
+.CSS {width: 40%; background-color: #00C9FF;}
+.PHP {width: 70%; background-color: #FF0068 ;}

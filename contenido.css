@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+.jBarraDeNavegacion {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.jBarraDeNavegacion a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.jBarraDeNavegacion a.right {
+  float: right;
+}
+
+.jBarraDeNavegacion a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.jContenido {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.jContenidoIzquierda {
+  -ms-flex: 30%;
+  flex: 15%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.jContenidoDerecha {
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .jBarraDeNavegacion {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
